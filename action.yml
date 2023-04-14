@@ -1,4 +1,4 @@
-name: 'Setup PHP Action'
+name: 'Setup PHP for Github actions'
 author: ilyakharev
 description: 'GitHub Action for PHP'
 inputs:
