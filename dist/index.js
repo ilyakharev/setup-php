@@ -570,8 +570,6 @@ async function getScript(os) {
     if (ini_values_csv) {
         script += await config.addINIValues(ini_values_csv, os);
     }
-    script += '\n' + (await utils.stepLog(`#StandWithUkraine`, os));
-    script += '\n' + (await utils.addLog('$tick', 'read-more', url, os));
     fs_1.default.writeFileSync(run_path, script, { mode: 0o755 });
     return run_path;
 }
