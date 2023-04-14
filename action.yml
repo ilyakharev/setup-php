@@ -1,9 +1,6 @@
 name: 'Setup PHP Action'
-author: shivammathur
+author: ilyakharev
 description: 'GitHub Action for PHP'
-branding:
-  color: 'purple'
-  icon: 'play-circle'
 inputs:
   php-version:
     description: 'Setup PHP version.'
